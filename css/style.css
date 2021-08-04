@@ -83,3 +83,27 @@ input[type="text"], #reading-status {
     background-color: #05000f;
     color: #f0ffff;
 }
+
+@media (max-width:540px) {
+    #main {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    #registration-form {
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    #book-list {
+        width: auto;
+    }
+
+    .book-item {
+        width: 100%;
+        background-color: #fcdda5;
+        margin: 0px 5px 15px 5px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+}
