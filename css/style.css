@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#top-nav {
+    background-color: #05000f;
+    padding: 20px;
+    color: #f0ffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+#book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 60%;
+}
+
+.book-item {
+    width: 240px;
+    background-color: #fcdda5;
+    margin: 0px 5px 15px 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.empty-book-item {
+    color: #05000f;
+    background-color: #fcdda5;
+    padding: 10px;
+}
+
+#registration-form {
+    background-color: #ffa500;
+    width: 100%;
+    padding: 10px 20px 15px 15px;
+    border-radius: 5px;
+}
+
+#form-header {
+    padding: 10px 0;
+}
+
+.form-input {
+    margin-bottom: 10px;
+}
+
+label {
+    padding-bottom: 5px;
+}
+
+input[type="text"], #reading-status {
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    padding-left: 5px;
+    width: 100%;
+}
+
+#form-submit-btn {
+    border: 0;
+    height: 30px;
+    width: 120px;
+    margin: 15px auto;
+    border-radius: 5px;
+    background-color: #05000f;
+    color: #f0ffff;
+}
